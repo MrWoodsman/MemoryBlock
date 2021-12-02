@@ -23,6 +23,9 @@
             </div>
         </div>
         <div id="screen2">
+            <audio id="myAudio">
+                <source src="tictack.mp3" type="audio/mpeg">
+            </audio>
             <div id="inputs">
                     <form>
                         <div class="form-group">
@@ -123,6 +126,7 @@
         document.getElementById("03").innerHTML = num3;
         document.getElementById("04").innerHTML = num4;
 
+        var x = document.getElementById("myAudio"); 
 
         //TIMER
         let count1;
@@ -134,10 +138,11 @@
             if (step1 > 100) {
                 // console.log("100%");
                 document.getElementById("screen1").style.display = "none";
-            document.getElementById("screen2").style.display = "block";
+                document.getElementById("screen2").style.display = "block";
                 document.getElementById('fileText').innerHTML = "Wpisz";
                 clearInterval(count1);
                 set();
+                playAudio();
             } else {
                 step1 += 0.5;
                 // console.log(step);
@@ -153,6 +158,7 @@
             if (step2 > 100) {
                 clearInterval(count2);
                 // console.log("End Time");
+                pauseAudio()
                 testAnsvers();
             } else {
                 step2 += 0.25;
@@ -187,5 +193,13 @@
             }
             
         }
+
+        function playAudio() { 
+        x.play(); 
+        } 
+
+        function pauseAudio() { 
+        x.pause(); 
+        } 
     </script>
 </html>
