@@ -4,7 +4,10 @@ body {
     font-family: 'Outfit', sans-serif;
     margin: 0px;
     background: rgb(16, 16, 19);
-
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
