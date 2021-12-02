@@ -5,6 +5,7 @@
 
 # Szybka Instrukcja
 MniGra polega na zapamietaniu ciągu cyfr po 2, razem jest do zapamietania 10 cyfr a nasepnie trzeba je wpisać w tej samej kolejności
+# Wspierane przeglądarki
 Testowane na: Firefox, Chrome.
 # Błąd?
 Jeśli brakuje jakiejś części lub coś nie działa prawidłowo, zgłoś problem tutaj na GitHub - zostanie on zbadany.
