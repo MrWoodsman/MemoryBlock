@@ -1,4 +1,4 @@
-# MemoryBlock
+# Mini gra MemoryBlock
 
 ## - - Kliknij screena poniżej, aby to wypróbować! - - 
 [![image](https://user-images.githubusercontent.com/62749434/144340162-09e15b2b-4c4b-4e23-a950-d30856c09480.png)](https://mrwoodsman.github.io/MemoryBlock/)
